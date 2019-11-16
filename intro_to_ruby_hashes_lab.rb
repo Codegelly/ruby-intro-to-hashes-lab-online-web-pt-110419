@@ -30,7 +30,7 @@ monopoly = {:railroads => {
             :names => {}, 
             :rent_in_dollars => {
             :one_piece_owned => 25,
-            :two_pieces_owned => 30
+            :two_pieces_owned => 50
             } 
     
           }}
