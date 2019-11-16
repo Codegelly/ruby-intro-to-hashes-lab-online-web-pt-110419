@@ -1,19 +1,22 @@
 def new_hash
+empty_hash = {}
 
 end
 
 def actor
-
+hash = {:name => "Dwayne The Rock Johnson"}
 end
 
 def monopoly
-	monopoly = {}
+	monopoly = {:railroads => {}}
 
 end
 
 def monopoly_with_second_tier
 	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
-
+monopoly = {:railroads => {:pieces => 4}, :railroads => {:names => {} }}  # should i be using while here ? 
+#am i making 2 methods ? or using .each to iterate ? 
+   
 end
 
 def monopoly_with_third_tier
@@ -25,3 +28,5 @@ def monopoly_with_fourth_tier
 	#copy and past the monopoly hash you build in the previous method. We're going to add stuff to it here!
 
 end
+
+
